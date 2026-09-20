@@ -1,0 +1,508 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessful": true,
+                        "column": 19,
+                        "durationMicroseconds": 211,
+                        "errorMessage": "",
+                        "functionName": "contentWidth",
+                        "line": 8
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 2477,
+                        "errorMessage": "",
+                        "functionName": "contentHeight",
+                        "line": 9
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 162,
+                        "errorMessage": "",
+                        "functionName": "x",
+                        "line": 14
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 12,
+                        "durationMicroseconds": 149,
+                        "errorMessage": "",
+                        "functionName": "y",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 16,
+                        "durationMicroseconds": 346,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 16
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 18,
+                        "durationMicroseconds": 113,
+                        "errorMessage": "",
+                        "functionName": "spacing",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 184,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 24
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 110,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 21
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 113,
+                        "errorMessage": "",
+                        "functionName": "weight",
+                        "line": 23
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 20,
+                        "durationMicroseconds": 102,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 30
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 26,
+                        "durationMicroseconds": 144,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 28
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 123,
+                        "durationMicroseconds": 138,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 78,
+                        "durationMicroseconds": 108,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 39
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 122,
+                        "durationMicroseconds": 118,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 77,
+                        "durationMicroseconds": 86,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 40
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 125,
+                        "durationMicroseconds": 112,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 41
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 80,
+                        "durationMicroseconds": 85,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 41
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 120,
+                        "durationMicroseconds": 138,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 75,
+                        "durationMicroseconds": 107,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 42
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 120,
+                        "durationMicroseconds": 98,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 75,
+                        "durationMicroseconds": 70,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 43
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 120,
+                        "durationMicroseconds": 90,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 44
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 75,
+                        "durationMicroseconds": 91,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 44
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 125,
+                        "durationMicroseconds": 93,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 80,
+                        "durationMicroseconds": 72,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 45
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 67,
+                        "durationMicroseconds": 90,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 47
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 24,
+                        "durationMicroseconds": 41,
+                        "errorMessage": "Cannot load property standings from TournamentManager.",
+                        "functionName": "model",
+                        "line": 50
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 156,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "color",
+                        "line": 54
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 34,
+                        "durationMicroseconds": 268,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "visible",
+                        "line": 57
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 33,
+                        "durationMicroseconds": 138,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 59
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 32,
+                        "durationMicroseconds": 256,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "color",
+                        "line": 62
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 96,
+                        "errorMessage": "",
+                        "functionName": "left",
+                        "line": 60
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 49,
+                        "durationMicroseconds": 105,
+                        "errorMessage": "",
+                        "functionName": "verticalCenter",
+                        "line": 61
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 39,
+                        "durationMicroseconds": 56,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 67
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 45,
+                        "durationMicroseconds": 77,
+                        "errorMessage": "",
+                        "functionName": "leftMargin",
+                        "line": 68
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 46,
+                        "durationMicroseconds": 71,
+                        "errorMessage": "",
+                        "functionName": "rightMargin",
+                        "line": 69
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 382,
+                        "errorMessage": "Cannot access value for name index",
+                        "functionName": "text",
+                        "line": 71
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 134,
+                        "durationMicroseconds": 96,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 71
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 89,
+                        "durationMicroseconds": 101,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 71
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 453,
+                        "errorMessage": "Cannot access value for name name",
+                        "functionName": "text",
+                        "line": 72
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 126,
+                        "durationMicroseconds": 175,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 72
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 81,
+                        "durationMicroseconds": 124,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 72
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 630,
+                        "errorMessage": "Cannot access value for name played",
+                        "functionName": "text",
+                        "line": 73
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 131,
+                        "durationMicroseconds": 133,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 73
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 86,
+                        "durationMicroseconds": 86,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 73
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 376,
+                        "errorMessage": "Cannot access value for name wins",
+                        "functionName": "text",
+                        "line": 74
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 129,
+                        "durationMicroseconds": 122,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 74
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 84,
+                        "durationMicroseconds": 87,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 74
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 390,
+                        "errorMessage": "Cannot access value for name draws",
+                        "functionName": "text",
+                        "line": 75
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 130,
+                        "durationMicroseconds": 116,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 75
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 85,
+                        "durationMicroseconds": 83,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 75
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 382,
+                        "errorMessage": "Cannot access value for name losses",
+                        "functionName": "text",
+                        "line": 76
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 131,
+                        "durationMicroseconds": 115,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 76
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 86,
+                        "durationMicroseconds": 75,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 76
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 38,
+                        "durationMicroseconds": 366,
+                        "errorMessage": "Cannot access value for name points",
+                        "functionName": "text",
+                        "line": 77
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 160,
+                        "durationMicroseconds": 92,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 77
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 86,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 77
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 138,
+                        "durationMicroseconds": 77,
+                        "errorMessage": "",
+                        "functionName": "weight",
+                        "line": 77
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 22,
+                        "durationMicroseconds": 78,
+                        "errorMessage": "",
+                        "functionName": "spacing",
+                        "line": 85
+                    },
+                    {
+                        "codegenSuccessful": false,
+                        "column": 28,
+                        "durationMicroseconds": 0,
+                        "errorMessage": "Could not find signal \"clicked\".",
+                        "functionName": "onClicked",
+                        "line": 89
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 24,
+                        "durationMicroseconds": 94,
+                        "errorMessage": "",
+                        "functionName": "color",
+                        "line": 98
+                    },
+                    {
+                        "codegenSuccessful": true,
+                        "column": 30,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "",
+                        "functionName": "family",
+                        "line": 96
+                    }
+                ],
+                "filePath": "C:/Users/USER/Desktop/ChessTournamentSystem (2)/ChessTournament/qml/StandingsView.qml"
+            }
+        ],
+        "moduleId": "ChessTournament(ChessTournamentApp)"
+    }
+]

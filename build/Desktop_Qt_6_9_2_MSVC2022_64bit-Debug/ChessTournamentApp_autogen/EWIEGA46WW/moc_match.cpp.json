@@ -1,0 +1,310 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Creatable",
+                    "value": "false"
+                },
+                {
+                    "name": "QML.UncreatableReason",
+                    "value": "Created by TournamentManager"
+                }
+            ],
+            "className": "Match",
+            "lineNumber": 10,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "when",
+                            "type": "QDateTime"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "start",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "isCloned": true,
+                    "name": "start",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "from",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "to",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "piece",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "isCapture",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "promotion",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 8,
+                    "name": "recordMove",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "from",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "to",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "piece",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "isCapture",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 9,
+                    "isCloned": true,
+                    "name": "recordMove",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "from",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "to",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "piece",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 10,
+                    "isCloned": true,
+                    "name": "recordMove",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "MatchResult"
+                        },
+                        {
+                            "name": "when",
+                            "type": "QDateTime"
+                        }
+                    ],
+                    "index": 11,
+                    "name": "finish",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "MatchResult"
+                        }
+                    ],
+                    "index": 12,
+                    "isCloned": true,
+                    "name": "finish",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "index": 13,
+                    "isConst": true,
+                    "name": "exportPositionFen",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "whitePlayer",
+                    "read": "whitePlayer",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Player*",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "blackPlayer",
+                    "read": "blackPlayer",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Player*",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "status",
+                    "notify": "statusChanged",
+                    "read": "status",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "MatchStatus",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "result",
+                    "notify": "resultChanged",
+                    "read": "result",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "MatchResult",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "startTimestamp",
+                    "notify": "startedChanged",
+                    "read": "startTimestamp",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDateTime",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "endTimestamp",
+                    "notify": "finishedChanged",
+                    "read": "endTimestamp",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QDateTime",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "moveModel",
+                    "read": "moveModel",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "MoveListModel*",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "Match",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "statusChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "resultChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "name": "startedChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "name": "finishedChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "moveNumber",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "moveRecorded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "errorOccurred",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "match.h",
+    "outputRevision": 69
+}

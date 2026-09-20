@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/ChessTournament/">
+    <file alias="qml/qmldir">C:/Users/USER/Desktop/ChessTournamentSystem (2)/ChessTournament/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/ChessTournament/qml/qmldir</file>
+  </qresource>
+</RCC>
+

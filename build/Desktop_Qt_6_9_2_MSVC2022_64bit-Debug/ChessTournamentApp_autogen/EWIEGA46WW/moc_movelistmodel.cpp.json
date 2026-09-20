@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "MoveListModel",
+            "lineNumber": 5,
+            "object": true,
+            "qualifiedClassName": "MoveListModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "movelistmodel.h",
+    "outputRevision": 69
+}

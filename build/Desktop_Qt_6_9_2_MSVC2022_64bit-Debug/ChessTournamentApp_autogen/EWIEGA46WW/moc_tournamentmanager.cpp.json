@@ -1,0 +1,116 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Singleton",
+                    "value": "true"
+                }
+            ],
+            "className": "TournamentManager",
+            "lineNumber": 8,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "rating",
+                            "type": "int"
+                        },
+                        {
+                            "name": "federation",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "registerPlayer",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "player1Id",
+                            "type": "int"
+                        },
+                        {
+                            "name": "player2Id",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "createMatch",
+                    "returnType": "bool"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "players",
+                    "read": "players",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "PlayerListModel*",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "standings",
+                    "read": "standings",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "StandingsModel*",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "activeMatch",
+                    "notify": "activeMatchChanged",
+                    "read": "activeMatch",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Match*",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "TournamentManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "activeMatchChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "tournamentmanager.h",
+    "outputRevision": 69
+}

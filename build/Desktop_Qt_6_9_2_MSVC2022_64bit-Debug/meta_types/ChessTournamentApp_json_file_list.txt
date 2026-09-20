@@ -1,0 +1,8 @@
+C:/Users/USER/Desktop/ChessTournamentSystem (2)/ChessTournament/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/ChessTournamentApp_autogen/include/../EWIEGA46WW/moc_enums.cpp.json
+C:/Users/USER/Desktop/ChessTournamentSystem (2)/ChessTournament/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/ChessTournamentApp_autogen/include/../EWIEGA46WW/moc_exporter.cpp.json
+C:/Users/USER/Desktop/ChessTournamentSystem (2)/ChessTournament/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/ChessTournamentApp_autogen/include/../EWIEGA46WW/moc_match.cpp.json
+C:/Users/USER/Desktop/ChessTournamentSystem (2)/ChessTournament/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/ChessTournamentApp_autogen/include/../EWIEGA46WW/moc_movelistmodel.cpp.json
+C:/Users/USER/Desktop/ChessTournamentSystem (2)/ChessTournament/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/ChessTournamentApp_autogen/include/../EWIEGA46WW/moc_player.cpp.json
+C:/Users/USER/Desktop/ChessTournamentSystem (2)/ChessTournament/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/ChessTournamentApp_autogen/include/../EWIEGA46WW/moc_playerlistmodel.cpp.json
+C:/Users/USER/Desktop/ChessTournamentSystem (2)/ChessTournament/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/ChessTournamentApp_autogen/include/../EWIEGA46WW/moc_standingsmodel.cpp.json
+C:/Users/USER/Desktop/ChessTournamentSystem (2)/ChessTournament/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/ChessTournamentApp_autogen/include/../EWIEGA46WW/moc_tournamentmanager.cpp.json

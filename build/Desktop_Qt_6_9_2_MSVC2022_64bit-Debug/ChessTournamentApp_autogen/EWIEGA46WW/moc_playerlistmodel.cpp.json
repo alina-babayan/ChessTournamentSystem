@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "PlayerListModel",
+            "lineNumber": 5,
+            "object": true,
+            "qualifiedClassName": "PlayerListModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "playerId",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "playerRegistered",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "playerlistmodel.h",
+    "outputRevision": 69
+}

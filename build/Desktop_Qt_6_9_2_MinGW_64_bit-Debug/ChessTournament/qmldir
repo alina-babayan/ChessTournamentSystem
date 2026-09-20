@@ -1,0 +1,14 @@
+module ChessTournament
+typeinfo ChessTournamentApp.qmltypes
+prefer :/qt/qml/ChessTournament/
+Main 1.0 qml/Main.qml
+singleton Theme 1.0 qml/Theme.qml
+AppButton 1.0 qml/AppButton.qml
+AppTextField 1.0 qml/AppTextField.qml
+SectionCard 1.0 qml/SectionCard.qml
+StatusPill 1.0 qml/StatusPill.qml
+RegisterPlayerView 1.0 qml/RegisterPlayerView.qml
+MatchView 1.0 qml/MatchView.qml
+StandingsView 1.0 qml/StandingsView.qml
+depends QtQuick
+

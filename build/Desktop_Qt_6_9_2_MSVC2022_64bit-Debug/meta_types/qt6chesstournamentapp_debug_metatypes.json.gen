@@ -1,0 +1,680 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "ChessEnums",
+                "enums": [
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "name": "Color",
+                        "values": [
+                            "White",
+                            "Black"
+                        ]
+                    },
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "name": "MatchStatus",
+                        "values": [
+                            "Scheduled",
+                            "InProgress",
+                            "Finished"
+                        ]
+                    },
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "name": "MatchResult",
+                        "values": [
+                            "Ongoing",
+                            "WhiteWins",
+                            "BlackWins",
+                            "Draw"
+                        ]
+                    }
+                ],
+                "lineNumber": 9,
+                "namespace": true,
+                "qualifiedClassName": "ChessEnums"
+            }
+        ],
+        "inputFile": "enums.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    },
+                    {
+                        "name": "QML.Singleton",
+                        "value": "true"
+                    }
+                ],
+                "className": "Exporter",
+                "lineNumber": 10,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "model",
+                                "type": "StandingsModel*"
+                            },
+                            {
+                                "name": "filePath",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "exportStandingsCsv",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "positionText",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "filePath",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "exportPositionToFile",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Exporter",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "exporter.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    },
+                    {
+                        "name": "QML.Creatable",
+                        "value": "false"
+                    },
+                    {
+                        "name": "QML.UncreatableReason",
+                        "value": "Created by TournamentManager"
+                    }
+                ],
+                "className": "Match",
+                "lineNumber": 10,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "when",
+                                "type": "QDateTime"
+                            }
+                        ],
+                        "index": 6,
+                        "name": "start",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "isCloned": true,
+                        "name": "start",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "from",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "to",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "piece",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "isCapture",
+                                "type": "bool"
+                            },
+                            {
+                                "name": "promotion",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 8,
+                        "name": "recordMove",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "from",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "to",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "piece",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "isCapture",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 9,
+                        "isCloned": true,
+                        "name": "recordMove",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "from",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "to",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "piece",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 10,
+                        "isCloned": true,
+                        "name": "recordMove",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "result",
+                                "type": "MatchResult"
+                            },
+                            {
+                                "name": "when",
+                                "type": "QDateTime"
+                            }
+                        ],
+                        "index": 11,
+                        "name": "finish",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "result",
+                                "type": "MatchResult"
+                            }
+                        ],
+                        "index": 12,
+                        "isCloned": true,
+                        "name": "finish",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 13,
+                        "isConst": true,
+                        "name": "exportPositionFen",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "whitePlayer",
+                        "read": "whitePlayer",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "Player*",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "blackPlayer",
+                        "read": "blackPlayer",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "Player*",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "status",
+                        "notify": "statusChanged",
+                        "read": "status",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "MatchStatus",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "result",
+                        "notify": "resultChanged",
+                        "read": "result",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "MatchResult",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "name": "startTimestamp",
+                        "notify": "startedChanged",
+                        "read": "startTimestamp",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QDateTime",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "name": "endTimestamp",
+                        "notify": "finishedChanged",
+                        "read": "endTimestamp",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QDateTime",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "name": "moveModel",
+                        "read": "moveModel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "MoveListModel*",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "Match",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "statusChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "resultChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "startedChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "finishedChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "moveNumber",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 4,
+                        "name": "moveRecorded",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 5,
+                        "name": "errorOccurred",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "match.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "MoveListModel",
+                "lineNumber": 5,
+                "object": true,
+                "qualifiedClassName": "MoveListModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "movelistmodel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "Player",
+                "lineNumber": 5,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "id",
+                        "read": "id",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "name",
+                        "read": "name",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "rating",
+                        "read": "rating",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "federation",
+                        "read": "federation",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "Player",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "player.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "PlayerListModel",
+                "lineNumber": 5,
+                "object": true,
+                "qualifiedClassName": "PlayerListModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "playerId",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "playerRegistered",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "playerlistmodel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "StandingsModel",
+                "lineNumber": 12,
+                "object": true,
+                "qualifiedClassName": "StandingsModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractTableModel"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "standingsmodel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    },
+                    {
+                        "name": "QML.Singleton",
+                        "value": "true"
+                    }
+                ],
+                "className": "TournamentManager",
+                "lineNumber": 8,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "rating",
+                                "type": "int"
+                            },
+                            {
+                                "name": "federation",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "registerPlayer",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "player1Id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "player2Id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "createMatch",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "players",
+                        "read": "players",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "PlayerListModel*",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "standings",
+                        "read": "standings",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "StandingsModel*",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "activeMatch",
+                        "notify": "activeMatchChanged",
+                        "read": "activeMatch",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "Match*",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "TournamentManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "activeMatchChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "tournamentmanager.h",
+        "outputRevision": 69
+    }
+]
